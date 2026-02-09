@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Sơ Cá Nhân - Phan Thị Yến Nhi</title>
+    <style>
+        /* === GIỮ NGUYÊN CSS CŨ === */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbe6;
+            color: #333;
+            background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+        }
+
+        header {
+            background-color: #d32f2f;
+            color: #ffeb3b;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid #ffca28;
+        }
+        
+        header h1 { margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        header p { font-style: italic; font-size: 1.2em; }
+
+        nav {
+            background-color: #b71c1c;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ffca28;
+            color: #d32f2f;
+        }
+
+        .container {
+            width: 90%; /* Tăng độ rộng để chứa bảng TKB */
+            max-width: 1200px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border: 1px solid #ffecb3;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px dashed #ffcc80;
+        }
+
+        h2 {
+            color: #c62828;
+            border-left: 5px solid #ffca28;
+            padding-left: 10px;
+        }
+
+        ul.hobbies li {
+            list-style-type: square;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .poem-box {
+            background-color: #fff8e1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-style: italic;
+            border: 1px solid #ffe082;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #aaa;
+            margin-top: 20px;
+        }
+        
+        .highlight { color: #d32f2f; font-weight: bold; }
+
+        /* === CSS MỚI CHO BẢNG THỜI KHÓA BIỂU (GIỐNG ẢNH) === */
+        .tkb-info {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #b71c1c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Gộp đường viền */
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+
+        table, th, td {
+            border: 1px solid #000; /* Viền đen rõ ràng như trong ảnh */
+        }
+
+        th {
+            background-color: #4dd0e1; /* Màu xanh ngọc giống header trong ảnh */
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        /* Cột Tiết */
+        th:first-child, td:first-child {
+            background-color: #4dd0e1;
+            font-weight: bold;
+            width: 50px;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+
+        /* Hiệu ứng khi di chuột vào dòng */
+        tr:hover td:not(:first-child) {
+            background-color: #e0f7fa; 
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌸 WELCOME TO MY WORLD 🌸</h1>
+        <p>Chào Xuân Bính Ngọ 2026 - Năm mới thắng lợi mới!</p>
+    </header>
+
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#so-thich">Sở thích</a>
+        <a href="#thoi-khoa-bieu">Thời khóa biểu</a>
+        <a href="#dinh-huong">Định hướng</a>
+        <a href="#goc-van-tho">Góc Văn Thơ</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="gioi-thieu">
+            <h2>🧧 1. Thông tin cá nhân</h2>
+            <p>Xin chào, mình là <span class="highlight">Phan Thị Yến Nhi</span>.</p>
+            <p>Học sinh lớp: <strong>12D5</strong> - Trường THPT Cánh Diều.</p>
+            <p>Đây là website cá nhân mình tự làm để lưu giữ những kỷ niệm năm cuối cấp và chào đón năm mới 2026.</p>
+        </section>
+
+        <section id="so-thich">
+            <h2>🎨 2. Sở thích cá nhân</h2>
+            <ul class="hobbies">
+                <li><strong>Màu sắc:</strong> Thích màu Đỏ (màu của Lì xì) và màu Xanh dương (hy vọng).</li>
+                <li><strong>Món ăn:</strong> Bánh chưng rán, Nem rán, Trà sữa full topping.</li>
+                <li><strong>Thể thao:</strong> Đá cầu, Cầu lông.</li>
+                <li><strong>Đặc biệt:</strong> Thích code web dạo và ngủ nướng ngày Tết.</li>
+            </ul>
+        </section>
+
+        <section id="thoi-khoa-bieu">
+            <h2>📅 3. Thời khóa biểu học tập</h2>
+            
+            <div class="tkb-info">
+                Lớp: 12D5 | Áp dụng từ ngày: 19/01/2026 (Buổi sáng)
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tiết</th>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HĐTN-HN</td>
+                        <td>Tin học</td>
+                        <td>Ngữ văn</td>
+                        <td>Toán</td>
+                        <td>GD KT&PL</td>
+                        <td>Địa lý</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>GD LSĐP</td>
+                        <td>Tin học</td>
+                        <td>Ngữ văn</td>
+                        <td>Toán</td>
+                        <td>GD KT&PL</td>
+                        <td>Địa lý</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Lịch sử</td>
+                        <td>Ngoại ngữ</td>
+                        <td>GD Thể chất</td>
+                        <td>Ngoại ngữ</td>
+                        <td>Lịch sử</td>
+                        <td>Ngữ văn</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Hóa học</td>
+                        <td>Toán HT</td>
+                        <td>Toán</td>
+                        <td>Ngoại ngữ</td>
+                        <td>Văn HT</td>
+                        <td>GD Thể chất</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Hóa học</td>
+                        <td>Toán HT</td>
+                        <td>Toán</td>
+                        <td>Ngữ văn</td>
+                        <td>Văn HT</td>
+                        <td>HĐTN-HN</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="dinh-huong">
+            <h2>🎓 4. Định hướng nghề nghiệp</h2>
+            <p>Năm nay là năm quan trọng, mình đang cố gắng hết sức để đạt mục tiêu:</p>
+            <ul>
+                <li><strong>Trường mục tiêu:</strong> Đại học Báo trì và Tuyên truyền TP.HCM hoặc Đại học FPT.</li>
+                <li><strong>Ngành học:</strong> truyền thông.</li>
+                <li><strong>Ước mơ:</strong> Trở thành một blogger nổi tiếng .</li>
+            </ul>
+        </section>
+
+        <section id="goc-van-tho">
+            <h2>📖 5. Góc Văn Thơ ngày Tết</h2>
+            <div class="poem-box">
+                <h3>Thơ Chúc Tết Bính Ngọ</h3>
+                <p>
+                    Ngày xuân đã đến bên thềm<br>
+                    Chúc cho bạn hữu càng thêm yêu đời<br>
+                    Nam thanh nữ tú rạng ngời<br>
+                    Hòa chung ước hẹn, muôn nơi đượm tình<br>
+                    Đạt nhiều thành tích quang vinh<br>
+                    Công danh, sự nghiệp vươn mình bay cao<br>
+                    Tình yêu thêm những ngọt ngào<br>
+                    Đắm say, hạnh phúc, dạt dào hoan ca<br>
+                    Chúc cho cô bác gần xa<br>
+                    Bên đàn con cháu đậm đà tình thân<br>
+                    Gia đình êm ái vô ngần<br>
+                    Tiếng cười rộn rã, vạn lần hân hoan<br>
+                    Niềm tin cứ mãi ngập tràn<br>
+                    Nhà nhà no ấm, chứa chan tình người<br>
+                    Trên môi luôn nở nụ cười<br>
+                    Cuộc đời rạng rỡ hồng tươi sắc màu.
+                </p>
+            </div>
+            <br>
+            <p><strong>Trích đoạn văn yêu thích:</strong></p>
+            <blockquote>
+                "Tuổi trẻ giống như một cơn mưa rào. Dù cho bạn từng bị cảm lạnh vì tắm mưa, bạn vẫn muốn được đắm mình trong cơn mưa ấy lần nữa. Năm 2026 này, hãy sống hết mình, học hết sức và chơi hết mình nhé tôi ơi!"
+            </blockquote>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Copyright © 2026 Phan Thi Yen Nhi. Designed with ❤️ for Tet Holiday.</p>
+        <p>Bài thực hành Tin học 12 - Chủ đề F: Kỹ thuật lập trình web.</p>
+    </footer>
+
+</body>
+</html>
